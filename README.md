@@ -1,5 +1,5 @@
 # appengine-pusher
-A dead simple demo using https://pusher.com on App Engine
+A dead simple demo using <a href="http://pusher.com" target="_blank">Pusher</a> on Google App Engine
 
 
 ## Getting started
