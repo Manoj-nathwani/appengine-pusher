@@ -10,7 +10,7 @@ pusher_key = "x"
 pusher_secret = "x"
 ```
 
-Add your pusher key to index.html
+Add your pusher key to <b>index.html</b>
 ```
 var pusher_key = "x";
 ```
