@@ -1,0 +1,23 @@
+<html>
+
+<head>
+  <title>Pusher Test</title>
+</head>
+
+<body>
+
+  <span>Run your appengine debugger and click <a href="push" target="_blank">here</a></span>
+
+  <script src="http://js.pusher.com/2.2/pusher.min.js"></script>
+  <script>
+    var pusher_key = "39f76f86447af5f1fe35"; // replace me
+    var pusher = new Pusher(pusher_key);
+    var channel = pusher.subscribe('test_channel');
+    channel.bind('my_event', function(data) {
+      alert(data.message);
+    });
+  </script>
+
+</body>
+
+</html>
